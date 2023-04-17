@@ -1,13 +1,13 @@
 # ==================
 # Project Details
 # ==================
-name: "jaffle_shop"
+name: "burger_shop"
 config-version: 2
 require-dbt-version:
 - ">=1.0.0"
 - "<2.0.0"
 version: "0.1"
-profile: "jaffle_shop"
+profile: "burger_shop"
 
 # ==================
 # File Path Configs
@@ -33,7 +33,7 @@ target-path: "target"
 # Model Configs
 # ==================
 models:
-  jaffle_shop:
+  burger_shop:
     materialized: "table"
     staging:
       materialized: "view"
