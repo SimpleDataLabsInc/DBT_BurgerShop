@@ -57,6 +57,17 @@ sqlModels:
       datasets: []
     createdAt: '2023-04-17 18:06:33'
     modifiedAt: '2023-04-17 18:06:33'
+  .prophecy/metadata/sqlmodels/audit:
+    name: audit
+    description: null
+    author: anya@prophecy.io
+    files:
+    - models/audit.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-04-18 20:26:14'
+    modifiedAt: '2023-04-18 20:26:14'
   .prophecy/metadata/sqlmodels/stg_payments:
     name: stg_payments
     description: null

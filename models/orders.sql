@@ -53,14 +53,6 @@ final AS (
   LEFT JOIN order_payments
      ON orders.order_id = order_payments.order_id
 
-),
-
-Audits AS (
-
-  SELECT *
-  
-  FROM orders
-
 )
 
 SELECT *

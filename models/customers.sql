@@ -6,6 +6,22 @@ WITH orders AS (
 
 ),
 
+Audits AS (
+
+  SELECT * 
+  
+  FROM orders
+
+),
+
+orders_1 AS (
+
+  SELECT * 
+  
+  FROM {{ ref('orders')}}
+
+),
+
 customer_orders AS (
 
   SELECT 
@@ -69,11 +85,11 @@ final AS (
 
 ),
 
-Audits AS (
+loyalty_club AS (
 
-  SELECT *
+  SELECT * 
   
-  FROM orders
+  FROM {{ ref('stg_payments')}}
 
 )
 
