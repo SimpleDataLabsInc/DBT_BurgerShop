@@ -85,3 +85,7 @@ create custom audits gem
 *** Release notes for version: 0.0.2 ***
 
 creates custom gem for auditing
+
+*** Release notes for version: 0.0.7 ***
+
+creates audit model
