@@ -81,3 +81,7 @@ For more information on dbt:
 *** Release notes for version: 0.0.1 ***
 
 create custom audits gem
+
+*** Release notes for version: 0.0.2 ***
+
+creates custom gem for auditing
